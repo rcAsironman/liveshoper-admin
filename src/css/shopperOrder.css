@@ -1,0 +1,156 @@
+.shopper-orders-content{
+    margin-top: -10px;
+}
+
+
+.shopper-order-box{
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    padding: 20px; /* Add padding for content */
+}
+
+.shopper-orders-content .user-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-top: 5px;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.left, .right{
+    display: flex;
+    padding-left: 50px;
+}
+
+.shopper-details pre, .user-details pre{
+    font-size: 0.8rem;
+} 
+
+
+.scrollable-div{
+    height: 500px;
+    overflow: auto;
+}
+
+.action-area{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.action-btn-accept{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 148, 5);
+    width: 80px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.action-btn-reject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 80px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.action-btn-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.action-btn{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.scrollable-div::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .scrollable-div::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+  .scrollable-div::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  }
+
+  .view-link-shopper{
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .colored-toast-container {
+    /* Add your custom styles for the toast container here */
+    background-color: #4CAF50; /* Green color */
+    color: white; /* Text color */
+  }
+
+  .order-data{
+    margin-left: -80px;
+    width: 120%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+  }
+ 
+  .order-data .right{
+    margin-left: -40px;
+  }
+
+  .shoppers-labels{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-bottom: 0px;
+  }
+  
+  .shoppers-labels pre{
+    margin-left: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
+  .shopper-label
+{
+  position: relative;
+  left: 30px;
+}
+
+
+
+
+
+
+

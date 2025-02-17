@@ -1,0 +1,71 @@
+.orders-page{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(242, 242, 242);
+}
+.orders-container{
+    /* background-color: rgb(7, 23, 7); */
+    height: 100vh;
+    width: 100vw;
+}
+
+.order-buttons-catg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-left: 200px;
+}
+.order-buttons-catg .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 8px;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: lavender;
+    font-weight: 400;
+    margin-right: 200px;
+    height: 20px
+}
+
+.products-orders .orders-count{
+    margin-left: 750px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.user-welcome{
+    display: inline;
+
+}
+
+.products-orders .shopper-order-box{
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    padding: 20px; /* Add padding for content */
+}
+
+.product-order-data .left .user-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: -20px;
+}
+
+
+

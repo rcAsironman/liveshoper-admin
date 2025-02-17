@@ -1,0 +1,107 @@
+.login-page {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-box {
+    height: 70vh;
+    width: 25vw;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Transparent white background */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    /* Box shadow for depth */
+    backdrop-filter: blur(12px);
+    /* Applies a blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    /* Optional border */
+    padding: 20px;
+    /* Adjust padding as needed */
+
+}
+
+.login-box h2{
+    color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.elements input{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 200px;
+}
+.elements h4{
+    color: white;
+    font-weight: 500;
+}
+
+.elements input:focus {
+    border: none; /* Remove the border when input is focused */
+    outline: none; /* Remove the default focus outline */
+  }
+
+.form{
+    margin-top: 50px;
+}
+
+.elements button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: navy;
+    width: 100%;
+}
+
+.elements button h3{
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    .login-box {
+        margin-top: -100px;
+        height: 55vh;
+        width: 70vw;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+        /* Transparent white background */
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        /* Box shadow for depth */
+        backdrop-filter: blur(12px);
+        /* Applies a blur effect */
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        /* Optional border */
+        padding: 20px;
+        /* Adjust padding as needed */
+    
+    }
+    
+   
+
+  }
+
+

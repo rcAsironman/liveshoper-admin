@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Scribble&family=Workbench&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+}
+
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    color: #333333;
+    text-decoration: none;
+    position: relative;
+    /* Position relative for absolute positioning */
+}
+
+.link:hover {
+    color: green;
+}
+
+/* Add an underline to the selected option */
+.link.selected::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    /* Adjust as needed for the desired underline position */
+    left: 40px;
+    width: 80%;
+    height: 2px;
+    /* Thickness of the underline */
+    background-color: green;
+    /* Color of the underline */
+}
+
+.time-comp {
+    display: flex;
+    position: absolute;
+}
+
+.home-page {
+    display: flex;
+
+}
+
+.menu {
+
+    background-color: black;
+    height: 100vh;
+    width: 20vw;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .logo {
+    color: white;
+    padding-top: 20px;
+    font-size: 2rem;
+    font-family: Rubik Scribble;
+}
+
+.menu ul {
+    margin-top: 50px;
+}
+
+.menu ul li {
+    width: 100px;
+    margin-left: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.menu h3 {
+    font-size: 1rem;
+    color: lavender;
+    font-weight: 900;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.content h2 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.time {
+    margin-left: 0px;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.dashboard-nav {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+
+.dashboard-data {
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.dashboard-data p {
+    margin-left: 50px;
+}
+
+.group-dashboard {
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.user-welcome {
+    display: block;
+    position: absolute;
+    top: 490px;
+    left: 0px;
+    color: white;
+}
+
+.day-night {
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: 0px;
+
+}
+
+.home-right-content {
+    width: 100%;
+}
+
+.home-nav {
+    width: 100%;
+}
+
+.push-message-box {
+    height: 200px;
+    width: 600px;
+}
+
+.message-area {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+    overflow-y: auto;
+
+}
+
+.message-area:focus {
+    outline: none;
+}
+
+.send-btn {
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    left: 732px;
+    top: -40px;
+}
+
+.message-field-promotions {
+
+
+    margin-top: 50px;
+    margin-left: 210px;
+
+}
+
+
+
+
+.message-area::-webkit-scrollbar {
+    width: 3px;
+}
+
+.message-area::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+    height: 1px;
+}
+
+.message-area::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+
+
+.submit-upload {
+
+}
+
+.pin {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+    left: 500px;
+
+
+}
+
+.pin input[type='file'] {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.send-option{
+    margin-left: -30px;
+    margin-top: 20px;
+    width: auto;
+    display: flex;
+}
+
+
+
+.more-link {
+    font-size: 10rem;
+}
+
+.file-preview {
+    display: inline-block;
+    padding: 10px;
+}
+
+.file-preview img {
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.remove-img {
+    color: black;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.preview-box {
+    margin-left: 200px;
+    display: flex;
+}
+
+.push-txt {
+    font-weight: 400;
+}
+
+
+.img-controls {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: 25px;
+
+}
+
+.enlarge-img {
+    margin-right: 10px;
+}
+
+.enlarged-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.enlarged-img img {
+    position: relative;
+    top: 100px;
+    left: 260px;
+    width: 60%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.close-img {
+
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.currency-exchange {
+    position: absolute;
+    top: 520px;
+    margin-left: 800px;
+    color: green;
+    font-weight: 500;
+}
+
+.more-link {
+    position: relative;
+    top: 80px;
+    font-size: small;
+    height: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.showAllImages-box {
+    background: black;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    overflow: auto; /* Add overflow property to make the content scrollable */
+    width: 100%;
+    height: 100vh; /* Set a fixed height for the container */
+}
+
+.showAllImages-box .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 2fr));
+    gap: 30px;
+}
+
+.grid-img-data {
+    margin-left: 50px;
+}
+
+.img-data {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.remove-img-from-preview {
+    position: absolute;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    backdrop-filter: blur(10px);
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.back-btn {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: sticky;
+    top: 0; /* Stick to the top */
+    z-index: 1; /* Ensure it's above other content */
+    cursor: pointer;
+}
+
+.message-area-warning{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow-y: auto;
+    border-color: red;
+}
+
+.push-selection-option{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+}
+.push-selection-option label{
+    padding: 10px;
+}
+
+.addPersonsToSend{
+    position: absolute;
+    background-color: rgb(230, 233, 230);
+    width: 80%;
+    height: 100%;
+    top: 0px;
+    
+}
+
+.notification-selected-btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.notification-both-btns{
+    display: flex;
+    position: relative;
+    top: 400px;
+    justify-content: space-around;
+}
+
+.notification-selected-btn-exit {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 400px;
+    left: 400px;
+}
+
+.selectedPersons{
+    background-color: white;
+    width: 15%;
+    height: 35%;
+    overflow: auto;
+    position: absolute;
+    top: 150px;
+    left: 265px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); /* Elevation 1 */
+}
+
+.dataInAdded{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.nav-bar-mobile{
+    display: none;
+}
+
+.home{
+    display: flex;
+}
+@media screen and (max-width: 768px){
+
+.home{
+    display: block;
+}
+.menu{
+    display: none;
+}
+.nav-bar{
+    display: none;
+} 
+
+.nav-bar-mobile{
+    background-color: black;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar-mobile .logo-mobile{
+  font-size: x-large;
+  font-weight: 900;
+}
+.home-right-content{
+    margin: 0px;
+    padding: 0px;
+}
+.home-right-content .home-nav {
+   display: block;
+   justify-content: center;
+   align-items: center;
+   margin-left: -20px;
+}
+.message-field-promotions{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    width: 80%;
+}
+.push-txt{
+    font-weight: 600;
+    font-size: x-large;
+}
+.push-message-box{
+    width: 105%;
+
+}
+
+.send-option{
+    margin-left: -220px;
+}
+
+.send-btn{
+    display: none;
+}
+
+.currency-exchange{
+    display: none;
+}
+
+.push-selection-option{
+    display: block;
+    background-color: red;
+}
+
+.pin {
+    cursor: pointer;
+    position: relative;
+    top: 100px;
+    left: 0px;
+
+
+}
+}

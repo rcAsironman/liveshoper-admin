@@ -1,0 +1,36 @@
+/* SearchResult.css */
+
+.scrollable-search-result-div {
+    height: 300px;
+    width: 62%;
+    overflow: auto;
+    padding-right: 10px; /* Adjust as needed */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+  }
+  
+  .search-result-item {
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .scrollable-search-result-div::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .scrollable-search-result-div::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+    height: 1px;
+  }
+  
+  .scrollable-search-result-div::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  }
+  

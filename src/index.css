@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Scribble&family=Workbench&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+}
+
+button:focus,
+button:active,
+button::-moz-focus-inner,
+a:focus,
+a:active,
+a::-moz-focus-inner {
+  outline: none;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Scribble&family=Workbench&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-page{
+    display: flex;
+    
+}
+.menu{
+
+    background-color: black;
+    height: 100vh;
+    width: 20vw;
+}
+.menu .logo{
+    color: white;
+    padding-top: 20px;
+    font-size: 2rem;
+    font-family: Rubik Scribble;
+}
+
+.menu ul{
+    margin-top: 50px;
+}
+.menu ul li{
+    margin-left: 40px;
+    list-style: none;
+    display: block;
+    padding: 30px;
+}
+.menu h3{
+    font-size: 1rem;
+    color: lavender;
+    font-weight: 900;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.content h2{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.time{
+    margin-left: 0px;
+}
+
+.heading{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.dashboard-nav{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+
+.dashboard-data{
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 100px;
+}
+
+.dashboard-data p{
+    margin-left: 50px;
+}
+.group-dashboard{
+    width: 100%;
+}
+.time-comp{
+display: flex;
+}
+
+
+.day-night{
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: 0px;
+    
+}
